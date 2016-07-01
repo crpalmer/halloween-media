@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="jousters_beeping_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0000000000" sel1="17.3885304659" vpos="0" h="0.0000000000" zoom="105.1242940182" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="196567__tambascot__truck-backup-beeps" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="0.354813" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="834649">
+				<waveblock start="0">
+					<simpleblockfile filename="e000041c.au" len="262144" min="-1.000375" max="0.971472" rms="0.29473"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000623.au" len="262144" min="-1.000454" max="0.97147" rms="0.294067"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000fa4.au" len="262144" min="-1.000429" max="0.971371" rms="0.295051"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000900.au" len="48217" min="-0.994936" max="0.97107" rms="0.261385"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
