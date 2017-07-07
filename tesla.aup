@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="tesla_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0000000000" sel1="16.6481250000" vpos="0" h="0.0000000000" zoom="47.1524571085" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="tesla" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="799110">
+				<waveblock start="0">
+					<simpleblockfile filename="e000035b.au" len="278256" min="-1.0" max="0.999969" rms="0.140957"/>
+				</waveblock>
+				<waveblock start="278256">
+					<simpleblockfile filename="e0000978.au" len="278256" min="-1.0" max="0.999969" rms="0.137849"/>
+				</waveblock>
+				<waveblock start="556512">
+					<simpleblockfile filename="e0000de8.au" len="242598" min="-1.0" max="0.999969" rms="0.142609"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="tesla" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="799110">
+				<waveblock start="0">
+					<simpleblockfile filename="e000008f.au" len="278256" min="-1.0" max="0.999969" rms="0.112788"/>
+				</waveblock>
+				<waveblock start="278256">
+					<simpleblockfile filename="e0000b69.au" len="278256" min="-1.0" max="0.999969" rms="0.109446"/>
+				</waveblock>
+				<waveblock start="556512">
+					<simpleblockfile filename="e00006fe.au" len="242598" min="-1.0" max="0.999969" rms="0.117744"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
